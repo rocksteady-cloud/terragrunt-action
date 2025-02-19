@@ -1,5 +1,5 @@
 # Dockerfile used in execution of Github Action
-FROM gruntwork/terragrunt:0.2.0
+FROM europe-west1-docker.pkg.dev/github-runners-450716/terragrunt:0.2.0
 LABEL maintainer="Gruntwork <info@gruntwork.io>"
 
 ENV MISE_CONFIG_DIR=~/.config/mise

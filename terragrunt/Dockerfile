@@ -1,6 +1,6 @@
 # Container to run Terragrunt and Terraform
 # Contains inside mise to allow users to install custom Terraform and Terragrunt versions
-FROM ubuntu:22.04
+FROM europe-west1-docker.pkg.dev/github-runners-450716/github-runner/ubuntu:22.04
 LABEL maintainer="Gruntwork <info@gruntwork.io>"
 
 ARG MISE_VERSION_INSTALL=v2024.4.0

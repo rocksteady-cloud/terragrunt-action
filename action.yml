@@ -34,5 +34,6 @@ outputs:
   tg_action_exit_code:
     description: 'Terragrunt exit code'
 runs:
+  pre: 'auth.sh'
   using: 'docker'
   image: './Dockerfile'
